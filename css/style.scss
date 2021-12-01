@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #01105d;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+.game{
+  display: flex;
+  align-items: center;
+}
+.level-choose{
+  padding: 10px 30px;
+  background: lightgrey;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.title{
+  color: yellow;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 10px 10px 10px red;
+}
+#level-display{
+  color: #dabb56;
+  text-align: center;
+  font-size: 24px;
+}
+#lives{
+  display: flex;
+  justify-content: center;
+  color: #dabb56;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.start-btn {
+  padding: 10px 30px;
+  background: lightgrey;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background: yellow;
+    color: red;
+  }
+}
+
+.field {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.square {
+  border: 2px dashed black;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: #41ef6c
+}
+
+.yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}

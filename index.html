@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNAKE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">SNAKE GAME</h1>
+    <h2 id="level-display"></h2>
+    <div id="lives"></div>
+    <div class="game">
+        <div>
+            <div>
+                <select class="level-choose" name="level-choose" id="level-choose">
+                    <option disabled selected value="">Choose LEVEL</option>
+                    <option value="1">BEGINNER</option>
+                    <option value="2">NON-PROFESSIONAL</option>
+                    <option value="3">PROFESSIONAL</option>
+                    <option value="4">MASTER</option>
+                </select>
+            </div>
+            <div><button class="start-btn" id="start-btn" type="button">START</button></div>
+            <div><button class="start-btn" hidden id="next-btn" type="button">NEXT</button></div>
+        </div>
+        <div class="field"></div>
+    </div>
+</div>
+
+
+
+</body>
+<script src="script/script.js"></script>
+</html>
